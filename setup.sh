@@ -15,3 +15,8 @@ yes | sudo apt-get install vim
 # vim plug
 yes | curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+# get node for COC
+wget https://nodejs.org/dist/v20.9.0/node-v20.9.0-linux-x64.tar.xz 
+tar -xvf node-v20.9.0-linux-x64.tar.xz
+export PATH=$PATH:/users/ajain442/node-v20.9.0-linux-x64/bin/
